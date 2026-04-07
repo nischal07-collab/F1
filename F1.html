@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 - Official Site</title>
+    <link rel="stylesheet" href="f1.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">🏁 F1</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#standings">Standings</a></li>
+                    <li><a href="#drivers">Drivers</a></li>
+                    <li><a href="#cars">Cars</a></li>
+                    <li><a href="#races">Races</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Welcome to Formula 1</h1>
+                <p>The pinnacle of motorsport racing. Experience speed, precision, and excitement like never before.</p>
+                <button class="btn">Watch Live Races</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1742744652734-d5ec6598b5da?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=600&h=400&fit=crop"
+                    alt="F1 Racing">
+            </div>
+        </section>
+
+        <!-- Driver Standings -->
+        <section class="section" id="standings">
+            <h2>Driver Standings 2026</h2>
+            <table class="standings-table">
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Driver</th>
+                        <th>Team</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="position">1</td>
+                        <td>Max Verstappen</td>
+                        <td>Red Bull Racing</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td class="position">2</td>
+                        <td>Lewis Hamilton</td>
+                        <td>Ferrari</td>
+                        <td>105</td>
+                    </tr>
+                    <tr>
+                        <td class="position">3</td>
+                        <td>Lando Norris</td>
+                        <td>McLaren</td>
+                        <td>98</td>
+                    </tr>
+                    <tr>
+                        <td class="position">4</td>
+                        <td>Charles Leclerc</td>
+                        <td>Ferrari</td>
+                        <td>92</td>
+                    </tr>
+                    <tr>
+                        <td class="position">5</td>
+                        <td>George Russell</td>
+                        <td>Mercedes</td>
+                        <td>85</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Drivers Gallery -->
+        <section class="section" id="drivers">
+            <h2>Featured Drivers</h2>
+            <div class="drivers-grid">
+                <div class="driver-card">
+                    <img src="https://i.pinimg.com/1200x/0a/13/2b/0a132b88668e331d3f599455d28a3939.jpg"
+                        alt="Max Verstappen" class="driver-photo">
+                    <div class="driver-info">
+                        <div class="driver-name">Max Verstappen</div>
+                        <div class="driver-team">Red Bull Racing</div>
+                        <div class="driver-points">120 Points</div>
+                    </div>
+                </div>
+
+                <div class="driver-card">
+                    <img src="https://i.pinimg.com/736x/e4/3f/52/e43f522fd9f18ad5879d83935e0992fc.jpg"
+                        alt="Lewis Hamilton" class="driver-photo">
+                    <div class="driver-info">
+                        <div class="driver-name">Lewis Hamilton</div>
+                        <div class="driver-team">Ferrari</div>
+                        <div class="driver-points">105 Points</div>
+                    </div>
+                </div>
+
+                <div class="driver-card">
+                    <img src="https://i.pinimg.com/736x/ff/9f/74/ff9f74d45243e19c85956999292d5649.jpg"
+                        alt="Lando Norris" class="driver-photo">
+                    <div class="driver-info">
+                        <div class="driver-name">Lando Norris</div>
+                        <div class="driver-team">McLaren</div>
+                        <div class="driver-points">98 Points</div>
+                    </div>
+                </div>
+
+                <div class="driver-card">
+                    <img src="https://i.pinimg.com/736x/89/76/32/897632093d3fdd8383d5f17a52c71eed.jpg"
+                        alt="Charles Leclerc" class="driver-photo">
+                    <div class="driver-info">
+                        <div class="driver-name">Charles Leclerc</div>
+                        <div class="driver-team">Ferrari</div>
+                        <div class="driver-points">92 Points</div>
+                    </div>
+                </div>
+
+                <div class="driver-card">
+                    <img src="https://i.pinimg.com/736x/7a/cd/6b/7acd6bd02b4fc43a4128aff6829bb65f.jpg"
+                        class="driver-photo">
+                    <div class="driver-info">
+                        <div class="driver-name">George Russell</div>
+                        <div class="driver-team">Mercedes</div>
+                        <div class="driver-points">85 Points</div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+
+        <!-- Cars Gallery -->
+        <section class="section" id="cars">
+            <h2>Featured Cars</h2>
+            <div class="cars-grid">
+                <div class="car-card">
+                    <img src="https://i.pinimg.com/736x/51/0c/69/510c6981c32d8325badfa4adf75bd716.jpg" alt="Red Bull Racing" class="car-image">
+                    <div class="car-info">
+                        <div class="car-team">🏎️ Red Bull Racing RB20</div>
+                        <div class="car-model">Oracle Red Bull Racing</div>
+                        <div class="car-specs">Engine: Honda RBPT V6 Hybrid<br>Power: 1050+ HP</div>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <img src="https://i.pinimg.com/1200x/8d/9e/13/8d9e13f0ab1b50a75f4813068bb8bacf.jpg" alt="Mercedes" class="car-image">
+                    <div class="car-info">
+                        <div class="car-team">🏎️ Mercedes W15</div>
+                        <div class="car-model">Mercedes-AMG Petronas</div>
+                        <div class="car-specs">Engine: Mercedes V6 Hybrid<br>Power: 1050+ HP</div>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <img src="https://i.pinimg.com/1200x/50/8d/0b/508d0b0dc736750941cf38032c53f94d.jpg" alt="McLaren" class="car-image">
+                    <div class="car-info">
+                        <div class="car-team">🏎️ McLaren MCL38</div>
+                        <div class="car-model">McLaren F1 Team</div>
+                        <div class="car-specs">Engine: Mercedes V6 Hybrid<br>Power: 1050+ HP</div>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <img src="https://i.pinimg.com/1200x/10/70/7e/10707e376bbca2be08018fc3adbfe503.jpg" alt="Ferrari" class="car-image">
+                    <div class="car-info">
+                        <div class="car-team">🏎️ Ferrari SF-24</div>
+                        <div class="car-model">Scuderia Ferrari</div>
+                        <div class="car-specs">Engine: Ferrari V6 Hybrid<br>Power: 1050+ HP</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Races -->
+        <section class="section" id="races">
+            <h2>Upcoming Races</h2>
+            <table class="races-table">
+                <thead>
+                    <tr>
+                        <th>Race</th>
+                        <th>Circuit</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bahrain Grand Prix</td>
+                        <td>Bahrain International Circuit</td>
+                        <td>March 14-16, 2026</td>
+                        <td>Upcoming</td>
+                    </tr>
+                    <tr>
+                        <td>Saudi Arabian Grand Prix</td>
+                        <td>Jeddah Corniche Circuit</td>
+                        <td>March 21-23, 2026</td>
+                        <td>Upcoming</td>
+                    </tr>
+                    <tr>
+                        <td>Australian Grand Prix</td>
+                        <td>Albert Park Circuit</td>
+                        <td>April 4-6, 2026</td>
+                        <td>Upcoming</td>
+                    </tr>
+                    <tr>
+                        <td>Japanese Grand Prix</td>
+                        <td>Suzuka International Circuit</td>
+                        <td>April 18-20, 2026</td>
+                        <td>Upcoming</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- News Section -->
+        <section class="section" id="news">
+            <h2>Latest News</h2>
+            <div class="grid">
+                <div class="card">
+
+                    <h3>🏆 New Season Begins</h3>
+                    <p>The 2026 Formula 1 season kicks off with thrilling new regulations and competitive teams ready to
+                        battle for the championship.</p>
+                </div>
+                <div class="card">
+                    <!-- <img src="https://images.unsplash.com/photo-1514644287524-48271a34caeb?w=400&h=200&fit=crop" alt="Team Updates"> -->
+                    <h3>🚗 Team Updates</h3>
+                    <p>All teams have made significant upgrades to their vehicles. Performance testing shows exciting
+                        competitive balance this year.</p>
+                </div>
+                <div class="card">
+                    <!-- <img src="https://images.unsplash.com/photo-1579546929662-711aa33e5b86?w=400&h=200&fit=crop" alt="Driver Focus"> -->
+                    <h3>⚡ Driver Focus</h3>
+                    <p>Top drivers share their strategies and expectations for the championship. It's shaping up to be
+                        one of the most competitive seasons yet.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Formula 1 World Championship. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Highlight active nav link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('nav a').forEach(link => {
+                link.style.color = '#fff';
+                if (link.getAttribute('href') === '#' + current) {
+                    link.style.color = '#ffff00';
+                }
+            });
+        });
+
+        // Fade in cards on scroll
+        const cards = document.querySelectorAll('.card');
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        cards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+
+        // Button click effect
+        const buttons = document.querySelectorAll('.btn');
+        buttons.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const ripple = document.createElement('span');
+                const rect = btn.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const x = e.clientX - rect.left - size / 2;
+                const y = e.clientY - rect.top - size / 2;
+
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+                ripple.style.position = 'absolute';
+                ripple.style.background = 'rgba(255, 255, 255, 0.6)';
+                ripple.style.borderRadius = '50%';
+                ripple.style.pointerEvents = 'none';
+                ripple.style.transform = 'scale(0)';
+                ripple.style.animation = 'ripple-animation 0.6s ease-out';
+
+                btn.style.position = 'relative';
+                btn.style.overflow = 'hidden';
+                btn.appendChild(ripple);
+
+                setTimeout(() => ripple.remove(), 600);
+            });
+        });
+
+        // Add ripple animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple-animation {
+                to {
+                    transform: scale(4);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Page load animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.8s ease';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+
+        // Console welcome message
+        console.log('%cWelcome to Formula 1!', 'color: #ffff00; font-size: 20px; font-weight: bold;');
+        console.log('%cMade with speed and precision ⚡', 'color: #dc0000; font-size: 14px;');
+    </script>
+</body>
+
+</html>
